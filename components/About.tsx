@@ -34,6 +34,7 @@ const About = () => {
             objectFit="contain"
             className="relative z-[11] w-[100%] h-[100%]"
           />
+          <div className="absolute w-[100%] h-[100%] z-[10] bg-[#55e6a5] top-[-2rem] right-[-2rem]"></div>
         </div>
       </div>
     </div>
