@@ -8,9 +8,9 @@ const Hero = () => {
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
-            Hey, I am <span className="text-yellow-400">Tsegaye!</span>
+            Hey, I am <span className="text-primary-400">Tsegaye!</span>
           </h1>
-          <h2 className="text-[2rem] text-[#55e6a5] font-bold uppercase mt-[1rem]">
+          <h2 className="text-[2rem] text-secondary-500 font-bold uppercase mt-[1rem]">
             Web Developer
           </h2>
           <p className="text-[#ffffff92] text-[18px] mt-[1.5rem]">
@@ -21,13 +21,13 @@ const Hero = () => {
             grow.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <button className="px-[2rem] hover:bg-yellow-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-[#55e6a5] text-black flex items-center space-x-2">
+            <button className="px-[2rem] hover:bg-primary-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-secondary-500 text-black flex items-center space-x-2">
               <p>Download CV</p>
               <ArrowDownCircleIcon className="w-[1.6rem] h-[1.7rem] text-black" />
             </button>
           </div>
         </div>
-        <div className="w-[500px] hidden bg-[#55e6a5] relative lg:flex items-center rounded-full h-[500px]">
+        <div className="w-[500px] hidden bg-secondary-500 relative lg:flex items-center rounded-full h-[500px]">
           <Image
             src="/images/u1.jpg"
             priority

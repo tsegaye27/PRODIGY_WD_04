@@ -22,7 +22,7 @@ const MobileNav = ({ nav, onCloseNav }: Props) => {
       </div>
       <div
         onClick={onCloseNav}
-        className="absolute z-[1000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-yellow-400"
+        className="absolute z-[1000000] cursor-pointer top-[2rem] right-[2rem] w-[2rem] h-[2rem] text-primary-400"
       >
         <XMarkIcon />
       </div>

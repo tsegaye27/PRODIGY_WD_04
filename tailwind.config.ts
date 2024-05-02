@@ -11,6 +11,17 @@ const config: Config = {
       fontFamily: {
         primary: ["Poppins"],
       },
+      colors: {
+        primary: {
+          400: "#00BFFF", // Yellow-400
+        },
+        primer: {
+          300: "#00BFFF", // Yellow-400
+        },
+        secondary: {
+          500: "#8fffff", // Custom secondary color
+        },
+      },
     },
   },
   plugins: [],
