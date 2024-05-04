@@ -24,10 +24,14 @@ const Hero = () => {
             grow.
           </p>
           <div className="mt-[2rem] flex-col space-y-6 sm:space-y-0 sm:flex sm:flex-row items-center sm:space-x-6">
-            <button className="px-[2rem] hover:bg-primary-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-secondary-500 text-black flex items-center space-x-2">
+            <a
+              href="/documents/resume.pdf"
+              target="_blank"
+              className="px-[2rem] hover:bg-primary-400 transition-all duration-200 py-[1rem] text-[18px] font-bold uppercase bg-secondary-500 text-black flex items-center space-x-2"
+            >
               <p>Download CV</p>
               <ArrowDownCircleIcon className="w-[1.6rem] h-[1.7rem] text-black" />
-            </button>
+            </a>
           </div>
         </div>
         <div className="w-[500px] hidden bg-secondary-500 relative lg:flex items-center rounded-full h-[500px]">
