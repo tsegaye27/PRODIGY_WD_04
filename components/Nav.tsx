@@ -1,5 +1,6 @@
 import { Bars3Icon } from "@heroicons/react/20/solid";
 import React from "react";
+import NavLink from "./NavLink";
 
 interface Props {
   onOpenNav: () => void;
@@ -13,11 +14,26 @@ const Nav = ({ onOpenNav }: Props) => {
           Tsegaye
           <span className="text-primer-300">Talegn</span>
         </h1>
-        <div className="nav-link">Home</div>
-        <div className="nav-link">About</div>
-        <div className="nav-link">Services</div>
-        <div className="nav-link">Project</div>
-        <div className="nav-link">Contact</div>
+        <NavLink href="#home">Home</NavLink>
+        <NavLink href="#about">About</NavLink>
+        <NavLink href="#services">Services</NavLink>
+        <NavLink href="#projects">Projects</NavLink>
+        <NavLink href="#contact">Contact</NavLink>
+        {/* <div className="nav-link">
+          <a href="#home">Home</a>
+        </div>
+        <div className="nav-link">
+          <a href="#about">About</a>
+        </div>
+        <div className="nav-link">
+          <a href="#services">Services</a>
+        </div>
+        <div className="nav-link">
+          <a href="#projects">Project</a>
+        </div>
+        <div className="nav-link">
+          <a href="#">Contact</a>
+        </div> */}
         <div onClick={onOpenNav}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-primer-300"></Bars3Icon>
         </div>

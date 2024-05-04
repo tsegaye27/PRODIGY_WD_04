@@ -4,7 +4,10 @@ import React from "react";
 
 const Hero = () => {
   return (
-    <div className="h-[88vh] bg-slate-700 bg-cover bg-center">
+    <div
+      id="home"
+      className="h-[88vh] bg-slate-700 bg-cover bg-center transition-all duration-300"
+    >
       <div className="w-[80%] grid-cols-1 mx-auto grid lg:grid-cols-2 gap-[3rem] h-[100%] items-center">
         <div>
           <h1 className="text-[35px] md:text-[50px] text-white font-bold">
