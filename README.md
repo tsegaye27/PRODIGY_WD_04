@@ -1,4 +1,4 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/tsegaye27/PRODIGY_WD_04/assets/109968379/9879e964-2b8c-4d98-9be7-90fd670235fe)This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
@@ -42,6 +42,9 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 ## App
 sample screenshots
 <br/>
+<br/>
+<br/>
+
 <img src="public/images/portfolio.png">
 <br/>
 <img src="public/images/portfolio2.png">
