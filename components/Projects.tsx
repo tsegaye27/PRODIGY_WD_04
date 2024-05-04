@@ -14,7 +14,7 @@ const Projects = () => {
         <div>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p1.jpg"
+              src="/images/p1.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -24,7 +24,7 @@ const Projects = () => {
         <div>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p2.jpg"
+              src="/images/p2.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
@@ -34,37 +34,7 @@ const Projects = () => {
         <div>
           <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
             <Image
-              src="/images/p3.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div>
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p4.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div>
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p5.jpg"
-              alt="portfolio"
-              layout="fill"
-              className="object-contain"
-            />
-          </div>
-        </div>
-        <div>
-          <div className="transform cursor-pointer hover:-translate-y-6 transition-all duration-300 relative w-[100%] h-[200px] md:h-[300px]">
-            <Image
-              src="/images/p2.jpg"
+              src="/images/p3.png"
               alt="portfolio"
               layout="fill"
               className="object-contain"
