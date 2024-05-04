@@ -44,14 +44,14 @@ const Footer = () => {
             </h1>
             <a
               href="https://github.com/tsegaye27"
-              target="blank"
+              target="_blank"
               className="text-[16px] text-white opacity-60 block"
             >
               GitHub
             </a>
             <a
-              href="https://linkedIn.com/tsegaye-talegngeta27"
-              target="blank"
+              href="https://linkedin.com/in/tsegaye-talegngeta27"
+              target="_blank"
               className="text-[16px] text-white opacity-60 block"
             >
               LinkedIn
