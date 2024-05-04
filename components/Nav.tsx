@@ -8,7 +8,7 @@ interface Props {
 
 const Nav = ({ onOpenNav }: Props) => {
   return (
-    <div className="w-[100%] fixed z-[10000] top-0 h-[10vh] bg-[#141c27] shadow-md">
+    <div className="w-[100%] fixed z-[10000] top-0 h-[10vh] transition-all duration-300 bg-[#141c27] shadow-md">
       <div className="flex items-center justify-between w-[80%] mx-auto h-[100%]">
         <h1 className="flex-[0.6] cursor-pointer text-[25px] text-white font-bold">
           Tsegaye
@@ -19,21 +19,6 @@ const Nav = ({ onOpenNav }: Props) => {
         <NavLink href="#services">Services</NavLink>
         <NavLink href="#projects">Projects</NavLink>
         <NavLink href="#contact">Contact</NavLink>
-        {/* <div className="nav-link">
-          <a href="#home">Home</a>
-        </div>
-        <div className="nav-link">
-          <a href="#about">About</a>
-        </div>
-        <div className="nav-link">
-          <a href="#services">Services</a>
-        </div>
-        <div className="nav-link">
-          <a href="#projects">Project</a>
-        </div>
-        <div className="nav-link">
-          <a href="#">Contact</a>
-        </div> */}
         <div onClick={onOpenNav}>
           <Bars3Icon className="w-[2rem] md:hidden h-[2rem] cursor-pointer text-primer-300"></Bars3Icon>
         </div>

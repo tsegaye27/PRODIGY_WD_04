@@ -9,7 +9,7 @@ interface Props {
 const NavLink = ({ href, children }: Props) => {
   const router = useRouter();
 
-  const handleClick = (e) => {
+  const handleClick = (e: any) => {
     e.preventDefault();
     setTimeout(() => {
       router.push(href);
